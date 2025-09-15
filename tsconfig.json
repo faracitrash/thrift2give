@@ -36,16 +36,15 @@
     "exactOptionalPropertyTypes": true,
     "noImplicitReturns": true,
     "noImplicitOverride": true
-  },
-  "include": [
-    "**/*.ts", 
-    "**/*.tsx",
-    "vite.config.ts"
-  ],
-  "exclude": [
+    },
+    "include": [
+    "src"
+    ],
+    "exclude": [
     "node_modules",
     "dist",
-    "build"
+    "build",
+    "vite.config.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
